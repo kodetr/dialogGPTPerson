@@ -1,3 +1,5 @@
+# Register :
+<pre>streamlit</pre>
 # How to install:
 <pre><code>pip install -r requirements.txt </code></pre>
 
