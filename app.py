@@ -16,7 +16,7 @@ def Chat():
     return []
 
 # Instance Bot
-Rick_bot = inference_rick_app.Bot_rick()
+# Rick_bot = inference_rick_app.Bot_rick()
 
 # create object to sotrage messages
 messages_history = Chat()
@@ -45,10 +45,10 @@ if bot_value == "Rick Sanchez":
         messages_history.append(current_message)
 
         # Response bot
-        response = Rick_bot.get_response(messages_history)
+        # response = Rick_bot.get_response(messages_history)
 
         # Add bot response to History
-        messages_history.append(response) 
+        # messages_history.append(response) 
 
         # format message:
         Res = []
